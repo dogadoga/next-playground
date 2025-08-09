@@ -5,4 +5,7 @@
 - 動的ルーティング(リンクにパラメータが入るやつ)
 - 動的セグメントは URL のいち部を変数のように扱える仕組み。App Router ではフォルダ名を `[名前]`で囲むと、その部分が動的になる。
 - API Route でバックエンド API を作れる。`app/api/` 配下で `route.ts` を用いる
-- フロントエンドと同じポートで API を叩ける
+- Postman からはフロントエンドと同じポートで API を叩ける
+- useEffect の fetch で API を叩く
+- ブラウザの機能や React Hooks（useState, useEffect）を使うときはクライアントコンポーネント(`"use client"`)にしないと動かない
+- 同一オリジンなのでCORS設定は不要

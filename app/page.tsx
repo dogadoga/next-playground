@@ -1,4 +1,4 @@
-"use client";
+"use client"; // このファイルがクライアントサイドであることを明示(デフォルトはサーバーコンポーネントになる)
 
 import { useState } from "react";
 import Link from "next/link";
