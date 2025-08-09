@@ -1,0 +1,5 @@
+- useState() で値などを変更できる
+- Next.js の App Router では app/ フォルダ内のパスがそのままページのURLになる
+- ページ作成時は page.tsx ファイルを作って export default function ページ名() { return ();} から
+- ページ間リンクは `<Link>` コンポーネントを使用 例： `<Link href="/about">
+- 
