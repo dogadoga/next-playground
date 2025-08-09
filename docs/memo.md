@@ -2,4 +2,5 @@
 - Next.js の App Router では app/ フォルダ内のパスがそのままページのURLになる
 - ページ作成時は page.tsx ファイルを作って export default function ページ名() { return ();} から
 - ページ間リンクは `<Link>` コンポーネントを使用 例： `<Link href="/about">
-- 
+- 動的ルーティング(リンクにパラメータが入るやつ)
+- 動的セグメントはURLのいち部を変数のように扱える仕組み。App Router ではフォルダ名を `[名前]`で囲むと、その部分が動的になる。
