@@ -1,6 +1,8 @@
 - useState() で値などを変更できる
-- Next.js の App Router では app/ フォルダ内のパスがそのままページのURLになる
+- Next.js の App Router では app/ フォルダ内のパスがそのままページの URL になる
 - ページ作成時は page.tsx ファイルを作って export default function ページ名() { return ();} から
 - ページ間リンクは `<Link>` コンポーネントを使用 例： `<Link href="/about">
 - 動的ルーティング(リンクにパラメータが入るやつ)
-- 動的セグメントはURLのいち部を変数のように扱える仕組み。App Router ではフォルダ名を `[名前]`で囲むと、その部分が動的になる。
+- 動的セグメントは URL のいち部を変数のように扱える仕組み。App Router ではフォルダ名を `[名前]`で囲むと、その部分が動的になる。
+- API Route でバックエンド API を作れる。`app/api/` 配下で `route.ts` を用いる
+- フロントエンドと同じポートで API を叩ける
